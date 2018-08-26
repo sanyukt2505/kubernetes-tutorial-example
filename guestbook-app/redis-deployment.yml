@@ -17,6 +17,8 @@ spec:
       containers:
       - image: redis
         name: redis
+        ports:
+        - containerPort: 6379
 
   replicas: 3
   selector:

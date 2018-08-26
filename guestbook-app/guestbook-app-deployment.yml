@@ -17,8 +17,6 @@ spec:
       containers:
       - image: kubernetes/guestbook:v2
         name: guestbook-app
-        ports:
-        - containerPort: 80
 
   replicas: 3
   selector:

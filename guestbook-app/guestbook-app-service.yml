@@ -10,6 +10,7 @@ spec:
   type: LoadBalancer
   ports:
     - port : 80
+      targetPort: 3000
   selector:
       name: guestbook-app-pod
       app: guestbook-app
